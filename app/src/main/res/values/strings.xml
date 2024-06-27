@@ -51,7 +51,7 @@
     <string name="favoritos">Mis favoritos</string>
     <string name="pedidos">Mis Pedidos</string>
     <string name="pantalla">Pantalla inicial</string>
-    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="login">Iniciar Sesión</string>
     <string name="user_icon">Icono de usuario</string>
 
 </resources>

@@ -16,7 +16,7 @@
         android:title="@string/pantalla" />
     <item
         android:id="@+id/navLogin"
-        android:icon="@android:drawable/ic_delete"
-        android:title="@string/cerrarSesion" />
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="@string/login" />
 </menu>
 
