@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity {
                     Toast.makeText(HomeActivity.this, "Pantalla Inicial seleccionada", Toast.LENGTH_SHORT).show();
                 } else if (id == R.id.navLogin) {
                     Toast.makeText(HomeActivity.this, "Iniciar sesión seleccionado", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+                    Intent intent = new Intent(HomeActivity.this, LoginModes.class);
                     startActivity(intent);
                     finish();
                 } else {
