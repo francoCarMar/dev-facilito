@@ -8,6 +8,9 @@ import retrofit2.http.POST;
 public interface ApiService {
     @POST("/login")
     Call<Void> login(@Body LoginRequest loginRequest);
+    @POST("/registro")
+    Call<Void> register(@Body RegisterRequest registerRequest);
+
 
     class LoginRequest {
         private String correo;
@@ -15,6 +18,23 @@ public interface ApiService {
 
         public LoginRequest(String correo, String password) {
             this.correo = correo;
+            this.password = password;
+        }
+    }
+
+
+    class RegisterRequest {
+        private String correo;
+        private Long dni;
+        private String nombre;
+        private String apellido;
+        private String password;
+
+        public RegisterRequest(String correo, Long dni, String nombre, String apellido, String password){
+            this.correo = correo;
+            this.dni = dni;
+            this.nombre = nombre;
+            this.apellido = apellido;
             this.password = password;
         }
     }

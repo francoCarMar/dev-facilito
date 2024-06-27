@@ -53,5 +53,6 @@
     <string name="pantalla">Pantalla inicial</string>
     <string name="login">Iniciar Sesión</string>
     <string name="user_icon">Icono de usuario</string>
+    <string name="registrarse">registrarse</string>
 
 </resources>
